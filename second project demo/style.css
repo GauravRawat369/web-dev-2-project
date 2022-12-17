@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+.wrapper{
+    background: url(images/bg.jpg) no-repeat;
+    opacity: .9;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 5.0rem;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+}
+.logo{
+    color: red;
+    font-family: "Roboto",sans-serif;
+    padding-top: 1.0rem;
+    padding-left: 1.5rem;
+    font-size: 20px;
+    height: 1.0rem;
+    width: 10.0rem;
+} 
+.logo span{
+    color: black;
+    font-family: "Roboto",sans-serif;
+} 
+.navbar ul{
+    float: right;
+    margin-right: 3.0rem;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 1.6rem;
+    display: inline-block;
+} 
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.0rem;
+    padding: .3rem .5rem;
+    font-family: "Roboto",sans-serif;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+   background-color: red;
+   border-radius: .2rem;
+}
+
+/* header responsiveness */
+ 
+@media screen and (max-width: 600px)
+{
+    
+}
+
+
+.center-heading {
+    padding-top: 10.0rem;
+    text-align: center;
+    color: white;
+    font-size: 3.0rem;
+    font-family: "Roboto",sans-serif;
+}
+.center-heading span{
+    color: white;
+}
+
+/* .first-box{
+    height: 20.0rem;
+    width: 15.0rem;
+    background-color: rgb(250, 218, 218,0.4);
+    position: absolute;
+    margin-left: 35.0rem;
+}
+.second-box{
+    height: 20.0rem;
+    width: 15.0rem;
+    background-color: rgb(250, 218, 218,0.4);
+    position: absolute;
+    margin-left: 55.0rem;
+}
+.third-box{
+    height: 20.0rem;
+    width: 15.0rem;
+    background-color: rgb(250, 218, 218,0.4);
+    position: absolute;
+    margin-left: 75.0rem;
+} */
